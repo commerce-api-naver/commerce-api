@@ -1,7 +1,7 @@
 # 소개
 이 공간은 커머스API 기술지원 공간입니다.
 > 커머스API 기술 문의 사항이 있으시면 [Discussions > Q&A](https://github.com/commerce-api-naver/commerce-api/discussions/categories/q-a)에 문의해주세요.
-- [Discussions](https://github.com/commerce-api-naver/commerce-api/discussions/categories/announcements)
+- [Discussions](https://github.com/commerce-api-naver/commerce-api/discussions)
     - [Announcements](https://github.com/commerce-api-naver/commerce-api/discussions/categories/announcements): 커머스API 운영과 관련한 공지사항을 게시합니다.
     - [FAQ](https://github.com/commerce-api-naver/commerce-api/discussions/categories/faq): 커머스API 사용과 관련하여 자주 묻는 질문과 그 답변을 게시합니다.
     - [Q&A](https://github.com/commerce-api-naver/commerce-api/discussions/categories/q-a): 커머스API 사용 및 운용 중 기술 문의 사항을 직접 게시하시어 답변을 받으실 수 있습니다.
