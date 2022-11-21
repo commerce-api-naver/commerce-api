@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>네이버 커머스플랫폼 API</title>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style>body {margin: 0;padding: 0;background-color: #FFFFFF;font-family: "나눔고딕", nanumgothic, helvetica neue, helvetica, applesdgothicneo-regular, arial, "맑은고딕", malgun gothic, "돋움", dotum, sans-serif;}#apidoc-container .operation-type {display: none !important;}#apidoc-container div.menu-content img {width: 100%;margin: auto;padding: 10px;}#apidoc-container div.menu-content {padding-top: 40px;}#apidoc-container .-depth1 {font-weight: bold;font-size: .85rem;}#apidoc-container .-depth1.active {background: rgba(3, 199, 90, 0.1);}#apidoc-container .-depth2 {font-weight: 400;font-size: .875rem;padding-left: 40px;}#apidoc-container .-depth2.active {background: rgba(3, 199, 90, 0.1);}#apidoc-container .api-content h1 {color: rgba(0, 0, 0, 0.93);font-size: 2em;padding-bottom: 0.3em;border-bottom: 1px solid;border-bottom-color: #E6E6E6;}#apidoc-container .api-content h2 {color: rgba(0, 0, 0, 0.93);font-size: 1.5em;padding-bottom: 0.3em;border-bottom: 1px solid;border-bottom-color: #E6E6E6;}#apidoc-container .api-content h3 {font-size: 1.25em;}#apidoc-container .api-content h4 {font-size: 1.1em;}#apidoc-container .api-content h5 {border-bottom: 1px solid;border-bottom-color: #E6E6E6;}#apidoc-container table.sc-hHEiqL.bnnCUV {table-layout: fixed;}#apidoc-container td[kind="field"] {white-space: pre-line;}#apidoc-container td[kind="field"] span.property-name {white-space: initial;word-break: break-all;}#apidoc-container .react-tabs__tab-panel div label {white-space: pre-wrap;}#apidoc-container .api-content td.dXRysb {border-bottom-color: #E6E6E6;}#apidoc-container .sc-kTCsyW.btFAwQ {bottom: 20px;}#apidoc-container .sc-kTCsyW.btFAwQ div:after {content: " ";}div.loading-mask {width: 100%;height: 100vh;margin: auto;background: url(https://apicenter.commerce.naver.com/ko/assets/img/common_loading_pc.gif) center center no-repeat;text-indent: -9999px;vertical-align: middle;z-index: 99999;}</style>
+  <link rel="stylesheet" type="text/css" href="https://apicenter.commerce.naver.com/ko/assets/img/sprites/sp_gnb.css">
+  <link rel="stylesheet" type="text/css" href="https://apicenter.commerce.naver.com/ko/assets/img/sprites/sp_gnb-basic.css">
+</head>
+<body>
+<div class="loading-mask"></div>
+<div id="apidoc-container"></div>
+<script src="./assets/redoc.standalone.js"></script>
+<script src="./assets/openapisnippet.min.js"></script>
+<script src="./2.0.0-RC.js"></script>
+<script>
+  const adc=()=>{let e=new MutationObserver(e=>{let r=document.querySelector(".sc-irKDMX.fDnfcq")?.classList;e.length>0&&e[0]?.oldValue===""?(r?.remove("sp-gnb-close"),r?.add("sp-gnb-basic-drawer")):(r?.remove("sp-gnb-basic-drawer"),r?.add("sp-gnb-close"))});e.observe(document.querySelector("#apidoc-container div.menu-content"),{attributes:!0,attributeFilter:["open"],attributeOldValue:!0}),document.querySelectorAll('button[aria-label="expand properties"]').forEach(e=>e.click()),document.querySelector(".sc-irKDMX.fDnfcq")?.classList?.add("sp-gnb-basic-drawer"),document.querySelector("div.loading-mask").style.display="none"};
+  const config={menuToggle:!0,hideLoading:!0,disableSearch:!0,pathInMiddlePanel:!0,hideDownloadButton:!0,enumSkipQuotes:!0,expandResponses:"200,201",theme:{typography:{fontFamily:'"나눔고딕", nanumgothic, helvetica neue, helvetica, applesdgothicneo-regular, arial, "맑은고딕", malgun gothic, "돋움", dotum, sans-serif',fontSize:"15px",lineHeight:"1.6",headings:{fontFamily:'"나눔고딕", nanumgothic, helvetica neue, helvetica, applesdgothicneo-regular, arial, "맑은고딕", malgun gothic, "돋움", dotum, sans-serif',fontWeight:"700",lineHeight:"1.2em"},code:{color:"rgba(3, 199, 90, 1)",backgroundColor:"rgba(243, 245, 246, 1)"},links:{color:"rgba(36, 126, 226, 1)",visited:"rgba(36, 126, 226, 1)",hover:"#7eb3ee"}},sidebar:{backgroundColor:"rgba(255, 255, 255, 1)",textColor:"rgba(0, 0, 0, 0.65)",activeTextColor:"#03C75A",groupItems:{activeBackgroundColor:"rgba(3, 199, 90, 0.1)"},level1Items:{textTransform:"capitalize",activeBackgroundColor:"rgba(3, 199, 90, 0.1)"},arrow:{color:"rgba(0, 0, 0, 0.37)"}},rightPanel:{backgroundColor:"rgba(27, 27, 27, 1)",textColor:"rgba(255, 255, 255, 1)",width:"35%"},codeBlock:{backgroundColor:"rgba(38, 38, 38, 1)"},spacing:{sectionVertical:30},colors:{http:{get:"#34495E",post:"#049372",put:"#EB9532",patch:"#F57C00",delete:"#C0392B"},primary:{main:"rgba(0, 0, 0, 0.65)",light:"rgba(77,77,77,0.65)",dark:"rgba(0,0,0,0.65)",contrastText:"#fff"},success:{main:"rgba(3, 199, 90, 1)",light:"#66fda9",dark:"#013016",contrastText:"#000"},error:{main:"rgba(255, 54, 39, 1)",light:"#ffc4c0",dark:"#8d0a00",contrastText:"#000"},text:{primary:"rgba(0, 0, 0, 0.65)",secondary:"rgba(77,77,77,0.65)"},responses:{success:{color:"rgba(3, 199, 90, 1)",backgroundColor:"rgba(3,199,90,0.1)"},error:{color:"rgba(255, 54, 39, 1)",backgroundColor:"rgba(255,54,39,0.1)"}}},schema:{linesColor:"rgba(3, 199, 90, 1)",requireLabelColor:"rgba(255, 54, 39, 1)"}}};
+  let codeSnippetTargets = ['shell_curl', 'java_okhttp', 'node_native', 'python_python3', 'php_curl'];
+  const es=t=>{for(let e in t.paths)for(let n in t.paths[e])try{let p=OpenAPISnippets.getEndpointSnippets(t,e,n,codeSnippetTargets);for(let s in t.paths[e][n]["x-codeSamples"]=[],p.snippets){let a=p.snippets[s];t.paths[e][n]["x-codeSamples"][s]={lang:a.title,source:a.content}}}catch(c){console.warn(e,n,c)}return t};
+  Redoc.init(es(apidoc), config, document.getElementById('apidoc-container'), adc);
+</script>
+</body>
+</html>
