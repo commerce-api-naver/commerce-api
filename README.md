@@ -3,6 +3,7 @@
 > 커머스API 기술 문의 사항이 있으시면 [Discussions > 묻고 답하기](https://github.com/commerce-api-naver/commerce-api/discussions/categories/%EB%AC%BB%EA%B3%A0-%EB%8B%B5%ED%95%98%EA%B8%B0)에 문의해주세요.
 - [Discussions](https://github.com/commerce-api-naver/commerce-api/discussions)
     - [공지사항](https://github.com/commerce-api-naver/commerce-api/discussions/categories/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD): 커머스API 운영과 관련한 공지사항을 게시합니다.
+    - [릴리즈 노트](https://github.com/commerce-api-naver/commerce-api/discussions/categories/%EB%A6%B4%EB%A6%AC%EC%A6%88-%EB%85%B8%ED%8A%B8): API 문서 변경점을 정리하여 게시합니다.
     - [묻고 답하기](https://github.com/commerce-api-naver/commerce-api/discussions/categories/%EB%AC%BB%EA%B3%A0-%EB%8B%B5%ED%95%98%EA%B8%B0): 커머스API 사용 및 운용 중 기술 문의 사항을 직접 게시하시어 답변을 받으실 수 있습니다.
     - [자주 묻는 질문](https://github.com/commerce-api-naver/commerce-api/discussions/categories/%EC%9E%90%EC%A3%BC-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8): 커머스API 사용과 관련하여 자주 묻는 질문과 그 답변을 게시합니다.
 - [Wiki](https://github.com/commerce-api-naver/commerce-api/wiki): API를 이용하기 위한 서비스 단의 가이드 매뉴얼을 수록하고 있습니다.
